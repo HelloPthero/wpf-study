@@ -120,7 +120,7 @@
         <Grid>
             <Border Background="#007DFA" Height="200" VerticalAlignment="Top" CornerRadius="10,10,0,0" MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
-                <Button Style="{StaticResource WindowControlButtonStyle}" Content="&#xe617;;" Click="winBtnMusic"/>
+                <Button Style="{StaticResource WindowControlButtonStyle}" Content="&#xe617;" Click="winBtnMusic"/>
                 <Button Style="{StaticResource WindowControlButtonStyle}" Content="&#xe629;" Click="winBtnMin"/>
                 <Button Style="{StaticResource WindowControlButtonStyle}" Content="&#xe621;" Click="winBtnMax"/>
                 <Button Style="{StaticResource WindowControlButtonStyle}" Content="&#xeb6a;" Click="winBtnClose"/>

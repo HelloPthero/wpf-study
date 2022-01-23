@@ -10,3 +10,16 @@ D:\WPF实例\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Con
 D:\WPF实例\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.pdb
 D:\WPF实例\WPFTestProject\WPFTestProject.Controls\obj\Debug\SkeletonScreen.g.cs
 D:\WPF实例\WPFTestProject\WPFTestProject.Controls\obj\Debug\SkeletonScreen.baml
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\bin\Debug\WPFTestProject.Controls.dll
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\bin\Debug\WPFTestProject.Controls.pdb
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.csprojAssemblyReference.cache
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\Instrument.g.cs
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\SkeletonScreen.g.cs
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls_MarkupCompile.cache
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls_MarkupCompile.lref
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\Instrument.baml
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\SkeletonScreen.baml
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.g.resources
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.csproj.CoreCompileInputs.cache
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.dll
+D:\Git\repos\wpf\wpf-study\WPFTestProject\WPFTestProject.Controls\obj\Debug\WPFTestProject.Controls.pdb
