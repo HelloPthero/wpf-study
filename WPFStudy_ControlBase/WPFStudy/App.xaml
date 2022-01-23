@@ -1,0 +1,11 @@
+﻿<Application x:Class="WPFStudy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFStudy"
+             StartupUri="View/MediaView.xaml">
+    <!--//指定其实文件 其他目录下的中间用.间隔  -->
+
+    <Application.Resources>
+         <!--定义资源文件-->
+    </Application.Resources>
+</Application>

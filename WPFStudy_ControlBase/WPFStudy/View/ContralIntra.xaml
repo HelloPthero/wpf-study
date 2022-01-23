@@ -1,0 +1,117 @@
+﻿<Window x:Class="WPFStudy.View.contralIntra"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStudy.View"
+        mc:Ignorable="d"
+        Title="控件" Height="450" Width="1200" Loaded="Window_Loaded">
+    <Grid x:Name="grid"> 
+        <!--单选框-->
+        <Label Content="类型" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"></Label>
+        <RadioButton Content="管理员" GroupName="type" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"></RadioButton>
+        <RadioButton Content="学生" GroupName="type" Click="RadioButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"></RadioButton>
+        <RadioButton Content="教师" GroupName="type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,110,0,0"></RadioButton>
+        <Label Content="性别" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0"></Label>
+        <RadioButton Content="男" GroupName="sex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0"></RadioButton>
+        <RadioButton Content="女" GroupName="sex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,200,0,0"></RadioButton>
+            
+         <!--复选框-->
+        <Label Content="爱好" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,10,0,0"></Label>
+        <CheckBox x:Name="checkbox" Checked="checkbox_Checked" IsThreeState="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,50,0,0" Content="写生"></CheckBox>
+        <CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,80,0,0" Content="钓鱼"></CheckBox>
+        <CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,110,0,0" Content="看电影"></CheckBox>
+        <CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,140,0,0" Content="喝酒"></CheckBox>
+        <Button x:Name="buttonGetCheckedBox" Click="GetAllCheckBox" Content="获取选中项" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,180,0,0"></Button>
+        <Button x:Name="buttonAddCheckBox" Click="AddCheckBox" Content="添加checkbox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,210,0,0"></Button>
+        
+        <!--图片-->
+        <Label Content="图片" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,10,0,0"></Label>
+        <Image x:Name="img" Stretch="Fill" Source="../asset/images/globe.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,50,0,0" Width="100" Height="100">
+        </Image>
+        <Button x:Name="buttonChangeImage" Click="ChangeImage" Content="添加checkbox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,180,0,0"></Button>
+        
+        <!--边框-->
+        <Label Content="边框" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,10,0,0"></Label>
+        <Border BorderBrush="Red" BorderThickness="2" CornerRadius="5" 
+                Background="Yellow" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,50,0,0" Width="100" Height="30">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center">边框内元素</Label>
+
+        </Border>
+        
+        <!--下拉框-->
+        <Label Content="下拉框" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,10,0,0"></Label>
+        <ComboBox x:Name="combobox" Margin="550,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="30"
+                 IsDropDownOpen="True" SelectionChanged="combobox_SelectionChanged"
+                  >
+            <ComboBoxItem Content="选择项1" IsSelected="True" VerticalAlignment="Center"></ComboBoxItem>
+            <ComboBoxItem Content="选择项2"></ComboBoxItem>
+            <ComboBoxItem Content="选择项3"></ComboBoxItem>
+        </ComboBox>
+        <Button Click="buttonAddComboboxItem" Content="添加comboboxItem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,120,0,0"></Button>
+
+        <!--列表框-->
+        <Label Content="列表框" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="730,10,0,0"></Label>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="730,40,0,0" Width="200" Height="120"
+                 SelectionChanged="listBox_SelectionChanged" SelectionMode="Multiple"
+                 >
+            <ListBoxItem Content="内容1" IsSelected="True"/>
+            <ListBoxItem Content="内容2" />
+            <ListBoxItem Content="内容3" />
+
+
+        </ListBox>
+        <Button Click="buttonAddListBoxItem" Content="添加ListBoxItem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="730,180,0,0"></Button>
+
+
+        <!--日期控件-->
+        <Label Content="日期控件DatePicker" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,10,0,0"></Label>
+        <DatePicker x:Name="dpDatePicker"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,50,0,0" Width="150"
+                    SelectedDate="2021/11/20" DisplayDateStart="2021-11-19" DisplayDateEnd="2021-11-30"
+                    SelectedDateFormat="Long" >
+        </DatePicker>
+
+        <!--日期控件-->
+        <Label Content="日历控件" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,90,0,0"></Label>
+        <Calendar x:Name="obCalendar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,120,0,0"
+                  DisplayMode="Month" DisplayDateStart="2020-10-1" DisplayDateEnd="2021-11-30"
+                  SelectionMode="MultipleRange"
+                  SelectedDatesChanged="obCalendar_SelectedDatesChanged"
+                  >
+        </Calendar>
+
+        <!--滑块-->
+        <Label Content="滑块控件" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,160,0,0"></Label>
+        <Slider x:Name="obSlider" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,200,0,0" Width="100"
+                Maximum="50" Minimum="10" Value="11" Orientation="Horizontal"  TickPlacement="TopLeft" TickFrequency="10"
+                IsSnapToTickEnabled="True" SmallChange="5" LargeChange="10"
+                IsDirectionReversed="True"
+                IsSelectionRangeEnabled="True" SelectionStart="66" SelectionEnd="70"
+                 >
+        </Slider>
+        <TextBlock Text="滑块绑定" FontSize="{Binding ElementName=obSlider,Path=Value,Mode=OneWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,180,0,0" Width="150" Height="50"></TextBlock>
+
+        <!--进度条-->
+        <Label Content="进度条" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,270,0,0"></Label>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,310,0,0" Width="150" Height="20" Value="0"
+                     Minimum="0" Maximum="120" 
+                     IsIndeterminate="False"
+                     ValueChanged="progressBar_ValueChanged"
+                     >
+            
+        </ProgressBar>
+        <Button x:Name="loadProgress" Click="loadProgress_Click" Content="加载进度条" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,340,0,0"></Button>
+
+        <Label Content="Frame承载Page页" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,250,0,0"></Label>
+        <Border BorderBrush="Red" BorderThickness="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,270,0,0" Width="200" Height="120">
+            <Grid>
+                <!--<Frame  Source="TestPage.xaml" NavigationUIVisibility="Visible"></Frame>-->
+                <Frame x:Name="frame"></Frame>
+            </Grid>
+        </Border>
+        
+
+
+    </Grid>
+</Window>

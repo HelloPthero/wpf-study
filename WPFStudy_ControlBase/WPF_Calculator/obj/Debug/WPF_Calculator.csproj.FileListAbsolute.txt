@@ -1,0 +1,15 @@
+D:\WPF实例\WPFStudy\WPF_Calculator\bin\Debug\WPF_Calculator.exe.config
+D:\WPF实例\WPFStudy\WPF_Calculator\bin\Debug\WPF_Calculator.exe
+D:\WPF实例\WPFStudy\WPF_Calculator\bin\Debug\WPF_Calculator.pdb
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\MainWindow.g.cs
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\App.g.cs
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator_MarkupCompile.cache
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator_MarkupCompile.lref
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\MainWindow.baml
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.g.resources
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.Properties.Resources.resources
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.csproj.GenerateResource.cache
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.csproj.CoreCompileInputs.cache
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.exe
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.pdb
+D:\WPF实例\WPFStudy\WPF_Calculator\obj\Debug\WPF_Calculator.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFStudy.View.MediaView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStudy.View"
+        mc:Ignorable="d"
+        Title="MediaView" Height="450" Width="800">
+    <Grid>
+        <Border BorderThickness="3" BorderBrush="Red" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Height="300" Width="400">
+            <MediaElement Source="../asset/video/text.mp4" LoadedBehavior="Play"/>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+D:\WPF实例\WPFTestProject\CustomControlLibrary\bin\Debug\CustomControlLibrary.dll
+D:\WPF实例\WPFTestProject\CustomControlLibrary\bin\Debug\CustomControlLibrary.pdb
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary_MarkupCompile.cache
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary_MarkupCompile.lref
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\Themes\Generic.baml
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.g.resources
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.Properties.Resources.resources
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.csproj.GenerateResource.cache
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.csproj.CoreCompileInputs.cache
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.dll
+D:\WPF实例\WPFTestProject\CustomControlLibrary\obj\Debug\CustomControlLibrary.pdb
